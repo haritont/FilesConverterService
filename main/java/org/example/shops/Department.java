@@ -1,22 +1,19 @@
-package org.example.shops;
-
-import java.util.ArrayList;
+package org.example;
 
 import com.google.gson.annotations.SerializedName;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+
+import java.util.ArrayList;
 
 @Getter
 @Setter
 @RequiredArgsConstructor
 
 public class Department {
-    @XStreamAlias("nameDepartment")
     @SerializedName("nameDepartment")
     private String nameDepartment;
-    @XStreamAlias("products")
-    @SerializedName("products")
+    @SerializedName("product")
     private ArrayList<Product> products;
 }
