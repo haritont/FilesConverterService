@@ -1,6 +1,6 @@
 package org.example.convert;
 
-import org.example.Product;
+import org.example.shops.Shops;
 import org.example.read.ReadJson;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-class convertToJsonTest {
+class ConvertToJsonTest {
     private static ReadJson json;
     final static String nameFile="src\\shops.json";
     final static String newFile="src\\new_shops.json";
@@ -24,8 +24,8 @@ class convertToJsonTest {
     }
     @Test
     public void checkConvert() throws IOException {
-        Product product = json.read(nameFile);
+        Shops shops = json.read(nameFile);
         ConvertToJson toJson = new ConvertToJson();
-        toJson.convert(product, newFile);
+        toJson.convert(shops, newFile);
     }
 }

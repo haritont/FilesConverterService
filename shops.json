@@ -1,4 +1,247 @@
 {
-    "type": "Сыр",
-    "price": "200"
+    "shop": [
+        {
+            "name": "Магазин1",
+            "department": [
+                {
+                    "nameDepartment": "Молочный отдел",
+                    "product": [
+                        {
+                            "type": "Сыр",
+                            "price": "200"
+                        },
+                        {
+                            "type": "Молоко",
+                            "price": "50"
+                        },
+                        {
+                            "type": "Йогурт",
+                            "price": "60"
+                        },
+                        {
+                            "type": "Творог",
+                            "price": "100"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Мясной отдел",
+                    "product": [
+                        {
+                            "type": "Котлеты",
+                            "price": "300"
+                        },
+                        {
+                            "type": "Филе",
+                            "price": "250"
+                        },
+                        {
+                            "type": "Сосиски",
+                            "price": "200"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Фруктовый отдел",
+                    "product": [
+                        {
+                            "type": "Апельсин",
+                            "price": "30"
+                        },
+                        {
+                            "type": "Банан",
+                            "price": "40"
+                        },
+                        {
+                            "type": "Ананас",
+                            "price": "150"
+                        },
+                        {
+                            "type": "Яблоко",
+                            "price": "20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Магазин2",
+            "department": [
+                {
+                    "nameDepartment": "Молочный отдел",
+                    "product": [
+                        {
+                            "type": "Сыр",
+                            "price": "250"
+                        },
+                        {
+                            "type": "Йогурт",
+                            "price": "40"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Фруктовый отдел",
+                    "product": [
+                        {
+                            "type": "Апельсин",
+                            "price": "15"
+                        },
+                        {
+                            "type": "Банан",
+                            "price": "30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Магазин3",
+            "department": [
+                {
+                    "nameDepartment": "Молочный отдел",
+                    "product": [
+                        {
+                            "type": "Сыр",
+                            "price": "100"
+                        },
+                        {
+                            "type": "Молоко",
+                            "price": "30"
+                        },
+                        {
+                            "type": "Йогурт",
+                            "price": "80"
+                        },
+                        {
+                            "type": "Творог",
+                            "price": "80"
+                        },
+                        {
+                            "type": "Сырок",
+                            "price": "40"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Мясной отдел",
+                    "product": [
+                        {
+                            "type": "Котлеты",
+                            "price": "100"
+                        },
+                        {
+                            "type": "Филе",
+                            "price": "300"
+                        },
+                        {
+                            "type": "Сосиски",
+                            "price": "150"
+                        },
+                        {
+                            "type": "Фарш",
+                            "price": "250"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Фруктовый отдел",
+                    "product": [
+                        {
+                            "type": "Апельсин",
+                            "price": "60"
+                        },
+                        {
+                            "type": "Банан",
+                            "price": "20"
+                        },
+                        {
+                            "type": "Ананас",
+                            "price": "50"
+                        },
+                        {
+                            "type": "Яблоко",
+                            "price": "15"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Овощной отдел",
+                    "product": [
+                        {
+                            "type": "Огурец",
+                            "price": "20"
+                        },
+                        {
+                            "type": "Помидор",
+                            "price": "20"
+                        },
+                        {
+                            "type": "Лук",
+                            "price": "15"
+                        },
+                        {
+                            "type": "Чеснок",
+                            "price": "7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Магазин4",
+            "department": [
+                {
+                    "nameDepartment": "Фруктовый отдел",
+                    "product": [
+                        {
+                            "type": "Апельсин",
+                            "price": "30"
+                        },
+                        {
+                            "type": "Банан",
+                            "price": "40"
+                        },
+                        {
+                            "type": "Ананас",
+                            "price": "80"
+                        },
+                        {
+                            "type": "Яблоко",
+                            "price": "20"
+                        },
+                        {
+                            "type": "Груша",
+                            "price": "20"
+                        }
+                    ]
+                },
+                {
+                    "nameDepartment": "Овощной отдел",
+                    "product": [
+                        {
+                            "type": "Огурец",
+                            "price": "10"
+                        },
+                        {
+                            "type": "Помидор",
+                            "price": "10"
+                        },
+                        {
+                            "type": "Лук",
+                            "price": "5"
+                        },
+                        {
+                            "type": "Чеснок",
+                            "price": "6"
+                        },
+                        {
+                            "type": "Перец",
+                            "price": "20"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
