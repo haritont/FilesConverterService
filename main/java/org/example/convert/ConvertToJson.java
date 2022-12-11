@@ -2,11 +2,13 @@ package org.example.convert;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import lombok.Data;
 import org.example.shops.Shops;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
+@Data
 public class ConvertToJson {
     public void convert(Shops shops, String newFile) throws IOException {
         GsonBuilder builder = new GsonBuilder();

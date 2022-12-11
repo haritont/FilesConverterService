@@ -1,4 +1,4 @@
-
+<shops>
   <shops>
     <shop>
       <name>Магазин1</name>
@@ -244,3 +244,4 @@
       </departments>
     </shop>
   </shops>
+</shops>

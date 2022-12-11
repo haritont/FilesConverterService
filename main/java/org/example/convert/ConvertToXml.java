@@ -1,6 +1,7 @@
 package org.example.convert;
 
 import com.thoughtworks.xstream.XStream;
+import lombok.Data;
 import org.example.shops.Department;
 import org.example.shops.Product;
 import org.example.shops.Shop;
@@ -9,6 +10,7 @@ import org.example.shops.Shops;
 import java.io.FileWriter;
 import java.io.IOException;
 
+@Data
 public class ConvertToXml {
     public void convert(Shops shops, String newFile) throws IOException {
         XStream xstream = new XStream();
